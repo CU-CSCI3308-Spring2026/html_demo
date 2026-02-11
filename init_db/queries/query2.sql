@@ -1,0 +1,1 @@
+-- write a query to get all the orders for the customer with id = 5
