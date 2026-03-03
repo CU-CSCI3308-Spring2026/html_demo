@@ -1,0 +1,14 @@
+{{!-- <h1>HOME PAGE</h1> --}}
+
+<div class="container">
+    <h1>Menu</h1>
+    <br>   <br>
+    <table class="table">
+    {{#each data}}
+        <tr>
+            <td>{{this.item_name}}</td>
+            <td>{{this.price}}</td>
+        </tr>
+    {{/each}}
+    </table>
+</div>
