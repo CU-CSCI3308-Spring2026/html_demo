@@ -2,7 +2,7 @@
 -- Customer Table
 CREATE TABLE IF NOT EXISTS Customer (
     customer_id SERIAL PRIMARY KEY,
-    name VARCHAR(100) NOT NULL,
+    customer_name VARCHAR(100) NOT NULL,
     email VARCHAR(150) NOT NULL UNIQUE
 );
 

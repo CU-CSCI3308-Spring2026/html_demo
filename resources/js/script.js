@@ -19,4 +19,3 @@ function updatePrice(obj, pName) {
       pName.textContent = "incorrect selection";
   }
 }
-// Try to rewrite this function such that it can reused to update the price for any drink on the menu based on size selected by the user.

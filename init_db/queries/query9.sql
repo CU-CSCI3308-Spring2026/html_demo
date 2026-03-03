@@ -1,0 +1,1 @@
+-- Find customers who have spent more than $20 total

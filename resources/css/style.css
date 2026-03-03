@@ -7,4 +7,9 @@ nav{
 }
 img{
     width: 10%;
+    padding: 0%;
+}
+
+#navbarNav{
+    margin-right: 0%;
 }

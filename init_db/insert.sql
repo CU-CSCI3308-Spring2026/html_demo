@@ -1,4 +1,4 @@
-INSERT INTO Customer (name, email)
+INSERT INTO Customer (customer_name, email)
 VALUES 
     ('Alex Kim', 'alex.kim@email.com'),
     ('Priya Shah', 'priya.shah@email.com'),
@@ -44,3 +44,16 @@ VALUES
     (7, 2, 1),
     (8, 2, 2),
     (8, 3, 1);
+
+--corrected inserts into Order
+
+INSERT INTO Orders (order_date, total_amount, customer_id)
+VALUES
+    ('2026-02-01', 8.00, 1),
+    ('2026-02-01', 7.50, 2),
+    ('2026-02-02', 8.00, 3),
+    ('2026-02-02', 8.00, 4),
+    ('2026-02-03', 15.50, 5),
+    ('2026-02-03', 3.50, 6),
+    ('2026-02-04', 13.00, 7),
+    ('2026-02-04', 11.50, 8);
